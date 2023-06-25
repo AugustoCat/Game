@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcoes.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />  
+    <title>Puzzle quiz</title>
+</head>
+<body>
+    <p class="text">Você decide voltar sua atenção para o jogo de computador que está rodando, seguindo o caminho da esquerda. A luz azulada da tela do computador ilumina o ambiente, destacando os contornos dos objetos ao redor.</p>
+    <p class="text">Ao se aproximar do computador, você percebe que o jogo exibe um desafio de quiz, com perguntas intrigantes e respostas que podem revelar informações cruciais para a sua jornada.</p>
+    
+    <h1>Mini Quiz</h1>
+    <button class="centralizar"  onclick="showDialog()">Iniciar Quiz</button>
+    <a href="outra_pagina.html">Voltar para o meio da sala</a>
+    <div id="dialog" class="dialog-container">
+      <h2>Mini Quiz</h2>
+      <div id="question"></div>
+      <input type="text" id="answer" placeholder="Digite sua resposta">
+      <button class="button" onclick="checkAnswer()">Verificar Resposta</button>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="funcoes.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Jogo</title>
+</head>
+<body id="Inicio">
+  
+    <p class="text"> Você acorda em uma sala escura, sem qualquer memória do seu passado. Seus olhos lutam para se ajustar à escuridão enquanto você examina o ambiente ao seu redor. As paredes de pedra fria parecem sussurrar segredos perdidos.</p>
+    <p class="text"> No centro da sala, você nota uma frase escrita com uma tinta desgastada: "Desperte os elementos em sua ordem verdadeira". Ao redor da frase, uma pequena caixa com interruptores aguardam silenciosamente sua interação.</p>
+    <p class="text"> Sem entender completamente o significado da mensagem, você decide confiar em sua intuição e com coragem, você se aproxima dos interruptores na parede</p>
+    <div id="TelaInicial">
+      <table id="MatrizJogador">
+      <tr>
+        <td class="onOFF"  onclick="changeValue(0, 0)">0</td>
+        <td class="onOFF"  onclick="changeValue(0, 1)">0</td>
+        <td class="onOFF"  onclick="changeValue(0, 2)">0</td>
+      </tr>
+      <tr>
+        <td class="onOFF"  onclick="changeValue(1, 0)">0</td>
+        <td class="onOFF"  onclick="changeValue(1, 1)">0</td>
+        <td class="onOFF"  onclick="changeValue(1, 2)">0</td>
+      </tr>
+      <tr>
+        <td class="onOFF"  onclick="changeValue(2, 0)">0</td>
+        <td class="onOFF"  onclick="changeValue(2, 1)">0</td>
+        <td class="onOFF"  onclick="changeValue(2, 2)">0</td>
+      </tr>
+    </table>
+    <hr>
+    <table id="MatrizOriginal">
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+    </table>
+    </div>
+</body>
+</html>

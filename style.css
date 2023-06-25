@@ -1,0 +1,90 @@
+body {
+  background-color: #7C7C8A;
+  color: aliceblue;
+}
+.text {
+  text-align: center;
+}
+
+
+#botao {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Inicio {
+  background-color: #121214;
+}
+#TelaInicial {
+  background-color: #121214;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#MatrizJogador {
+  color: aqua;
+}
+
+h1 {
+  text-align: center;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#linkP {
+ position: absolute;
+ right: 0;
+ padding-right: 2vw;
+ padding-top: 100px;
+}
+
+#linkC {
+ position: absolute;
+ left: 0;
+ padding-left: 2vw;
+ padding-top: 100px;
+}
+#puzzleFinal {
+  position: absolute;
+  left: 50%;
+ padding-top: 100px;
+}
+a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#puzzleQuiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
